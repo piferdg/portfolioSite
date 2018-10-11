@@ -1,0 +1,50 @@
+.App {
+  background-color: #282c34;
+  height:100vh;
+  position:relative
+}
+
+/* /////////////////////////////////////////// Header ////////////////////////////////////////// */
+
+.header {
+  color: white;
+}
+
+/* /////////////////////////////////////////// Projects ////////////////////////////////////////// */
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  color: darkgray;
+}
+
+.card-one {
+  width: 25vw;
+}
+
+.card-two {
+  width: 25vw;
+}
+
+.card-three {
+  width: 25vw;
+}
+
+/* /////////////////////////////////////////// Footer ////////////////////////////////////////// */
+
+.footer {
+  color: white;
+  position: absolute;
+  bottom: 0%;
+  height: 4vh;
+  width: 100vw;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
