@@ -2,6 +2,7 @@
   background-color: #282c34;
   min-height: 100vh;
   position: relative;
+  font-family: 'Crimson Text', serif;
 }
 
 /* /////////////////////////////////////////// Header ////////////////////////////////////////// */
@@ -9,12 +10,13 @@
 .header {
   display: flex;
   background-color: #282c34;
-  font-size: 2rem;
+  font-size: 25px;
   padding-top: 2vh;
+  font-family: 'Crimson Text', serif;
 }
 
 .header-name {
-  padding-right: 45vw;
+  padding-right: 55vw;
   color: wheat
 }
 
@@ -33,12 +35,15 @@
 .homepage {
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
+  
 }
 
 .homepage-name {
   color: white;
-  padding-top: 25vh;
+  padding-top: 1vh;
+  padding-bottom: 2vh;
 
 }
 
@@ -46,7 +51,7 @@
   animation: fadeIn;
   animation-duration: 3s;
   font-size: 5rem;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Crimson Text', serif;
 }
 
 .homepage-name h4 {
@@ -56,7 +61,7 @@
   animation-delay: 1s;
   animation-fill-mode: forwards;
   font-size: 2rem;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Crimson Text', serif;
 }
 
 @keyframes fadeIn{
@@ -76,7 +81,8 @@
 }
 
 .projects-page h1 {
-  color: aqua;
+  color: white;
+  font-style: italic;
   text-align: center;
 }
 
@@ -96,18 +102,28 @@
   color: white;
 }
 
-.projects-page a {
-  color: white;
-  border: dotted 2px white;
-  padding: 1%;
-}
-
 .projects-page a:hover {
-  color: orange;
+  color: white;
   text-decoration: none;
 }
 
+#screenshot {
+  padding: 3%;
+}
 
+.info-button {
+
+}
+
+#dropdown-text{
+  color: black;
+}
+
+.card-buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 
 
