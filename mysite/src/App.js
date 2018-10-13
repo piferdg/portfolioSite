@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Header from './components/Header'
 import Home from './components/Home'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
           <Switch>
             <Route path='/' component={Home} exact />
             <Route path='/projects' component={Projects} exact />
+            <Route path='/contact' component={Contact} exact />
           </Switch>
           <Footer />
         </div>

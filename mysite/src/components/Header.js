@@ -15,6 +15,9 @@ const Header = () => {
       <div className='header-linkedin'>
         <a target='-blank' href='https://www.linkedin.com/in/daniel-pifer/'>Linkedin</a>
       </div>
+      <div className='header-contact'>   
+        <a href='/contact'>Contact</a>        
+      </div>
     </div>
   )
 }
