@@ -321,12 +321,34 @@
   animation-fill-mode: forwards;
   font-size: 3rem;
   font-family: 'Crimson Text', serif;
-  padding-bottom: 3%;
+  padding-bottom: 1%;
 }
 
 .contact-main {
   display: flex;
   justify-content: space-evenly;
+}
+
+.contact-github-link a{
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.contact-github-link a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+.contact-linkedin-link a{
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.contact-linkedin-link a:hover {
+  color: orange;
+  text-decoration: none;
 }
 
 
