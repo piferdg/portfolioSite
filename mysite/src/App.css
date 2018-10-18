@@ -13,6 +13,7 @@
   font-size: 25px;
   padding-top: 2vh;
   font-family: 'Crimson Text', serif;
+  border: 1px solid black;
 }
 
 .header-name {
@@ -178,18 +179,15 @@
 	
 	100% {
 		transform: translateY(0vh) translateX(110vw) scale(0.45);
-	}
-	
+	}	
 }
-
-
-
 
 .homepage {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  
   
 }
 
@@ -203,8 +201,9 @@
 .homepage-name h1 {
   animation: fadeIn;
   animation-duration: 3s;
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: 'Crimson Text', serif;
+  text-align: center;
 }
 
 .homepage-name h4 {
@@ -218,22 +217,11 @@
   text-align: center
 }
 
-.homepage-name h3 {
-  opacity: 0;
-  animation: fadeIn;
-  animation-duration: 3s;
-  animation-delay: 3s;
-  animation-fill-mode: forwards;
-  font-size: 2rem;
-  font-family: 'Crimson Text', serif;
-  text-align: center;
-}
-
 #carousel {
   opacity: 0;
   animation: fadeIn;
   animation-duration: 3s;
-  animation-delay: 4s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
 }
 
@@ -245,6 +233,35 @@
       opacity: 1;
   }
 }
+
+/* #carousel h3, p{
+  color: black;
+}
+
+.carousel-caption {
+  background: rgb(249, 249, 249, 0.5);
+   
+} */
+
+
+.homepage-bio {
+  color: white;
+  padding-bottom: 8vh;
+  padding-top: 4vh;
+}
+
+.homepage-bio h3 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.homepage-bio p {
+  font-size: 23px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  color: white; 
+}
+
 
 /* /////////////////////////////////////////// Projects ////////////////////////////////////////// */
 
@@ -288,10 +305,6 @@
 
 #screenshot {
   padding: 3%;
-}
-
-.info-button {
-
 }
 
 #dropdown-text{

@@ -3,7 +3,7 @@ import { UncontrolledCarousel } from 'reactstrap';
 
 const items = [
   {
-    src: 'https://lh3.googleusercontent.com/ypTIReM8DMjrCo2f5OvDxM8mADzN3ipG--Mr3LM25KzbJjUAcKw_VrAG1Vcs_WcxadeBNbi0WMtfBSsehSrCyNjrwAg_ihu9sKxKzP3w2x7fAqymYDHwfi6aphiAMsVN6ztxLjLL5DUSTRFcjcUTpKX2uVvCWs9trfKU10Zewk6BYytD_9wbyproVH62MrAW0k6wy2lpmu8FkPZ4-jXf0KfB_m_EHZUV9OYLIy_0ff_DZ33_9K8F5qUsEvZnaT-pDBLCIxgg4qLUxzymlZ6LAxGxBPyb1kwk26sfvU6sZH4ro8OaxxkCkapbWQgQTU4gBOl_qA6_azMjyFBqDdjzhdp3VTx9Q0gpiGrguA6dFhx8w-_QAr2GIEDcfC3-yNhDBVrArLcD9c55kzJpB0-n7sv6IefrFG5FIZy4JOhpSEFyCz7rMmg4NiAjhUhI4FahAP91HvpnTjQhCqaqV2tTMciMzzi7B2dOq40o0L4dgoASxQxuKNvwQG6v-SPLUOXlsj9rveynlbExyexvMpCw6vpG5YJytidqJT0C_PtAiC-MhBxTtyUIagQMnCi-prtpZDrGgA_93Mp-ffqH6ymvKOuzcCsWkLEvPavIfO4JEcqqgya0JFl1sZFlx4AW_8ZJ=w802-h402-no',
+    src: 'https://lh3.googleusercontent.com/kGoHTNdNBKeC5UEYuVPu_NdjOlcBlcGxKfK-hi9q7ZSo7MytfFFaQQaM94uQbh6XYGBMtoKP7JFUcRMUIBHM_-1dHue60aKVhCQqLrRpm_jeQ6gK_I0m2RKbyYUAm7ZSi-0aWvAJ_oYOQcCscMErzx3xrBSwttl7pPefQSIfPyub2fh5BuH7lz5WvwGM_ODdfzesgcqZ6OSP_CiXPl1RQzDLkOGSxfGm9wIGWMRWFQwqGZL3V7ewaY-vTG__4F3WW9nGNtzAHiYJjUVtqOjJs-cDRht06G3z-owixALz4Y7gqgxzGRvzdByvOvMa4xEGrJpqhJ5slZCca8E7W9Z1ZEuKjdhHgF1oxDNSSA4fZ1Vr6dpjSTLJH7E0DTysqYIYw1DaFNvqkS07FatR6kvS9_kHt8GCyzEatF24ShlG5Y-ZbKXiLtbq3ufBj32AixYWgrnqhhqNiWPYxpOkS59lN0o4TmWg2Mxll9nm58MOzpcvi156N7RxpbqINXOXXc5C5FfAn8B4QKGefIJuMHCCSiDEiMj_ojxRbQsgBvawqIl-kfFsuzd8EgrOMPo5l2OkJlib1aUeJoMnkVx6JitJyO84PUxJZnTTMX1ipeAbJOmYA1cW3j_Zg7z3iSkD3ZsC=w802-h403-no',
     altText: 'Slide 1',
     header: 'Fishing',
     caption: 'Jefferson Lake Rainbow Trout'
@@ -15,7 +15,7 @@ const items = [
     caption: 'Some fall hiking at Jefferson Lake'
   },
   {
-    src: 'https://lh3.googleusercontent.com/0f6CJC3NrNFb6hilwncSWyIF00DtRNiWGvCEv9jGLylwER9-poPurQKwtbGduyLjYe3FYRNHPoFbaLwTNEsyYgnuB-iVMXaSFNRDiPjvbKiB1a74Qk4twcFCZVpjyqtaqWhAbRT0vpLThDTA3CAE1LiMJjC9qDDTXJfRjFhRzYhHogXqVJethMMskWa43Mbi6ZWsDIF6Sp36fkUua8BtAfY1Cdu4qV3pjmWH71TM2v0frFtzNR9DKPyAUBwU5AgSLAdL8dDM-ZezhPSpZbrV6NrIE8lViqxh8h3WVAZxh5SMFL3CNy-JV7Q8IcZH2eXK1Ne_i1jrMIELzmONk5FabsazEmFwZmJiQzWjXka6HLHv65uDQvBckGw_dvDtMKMDWupDQ2-dudTyAzEKGEiGrReSgpTRJI9jLl__e0jKpNQ0g5JQsfcoaSJoOmVnYqQF9z8sJMm_S2MU9rSQVgoDEJzQHZTAgLOhAEBCzK94hwPqAKkd5dW1xbVOJascZEE2PEY1jxrWK5IVfINFgtRP0KMb46eR4I0vxuktcHUT8hJ3Xu8Pce2HzeZTYDMu6q4qLESJjnEygocYKRtMtt9zqG13yLKf_vO9JZOgrKMNv-vlhpOrivlTiQjXYKWlXWOe=w802-h402-no',
+    src: 'https://lh3.googleusercontent.com/4fAtsAAINi9rySLESglBV0G8YJOJoOo8j4E4j92BR3To0gF3goH2iCKcIdLA45gyqoOy6Ku36wNAj72m83PVcCYzMHwkAkQDDw8BbS1JBeGLAm7DzrblzAumLEDRqxN9JIzbvqpYQjQdGH-wy44gz4PQAkm-RVvE0qiH-J7hZpx4Mxc_X3HiPtKAFVpQiYRcw46ytg_HwrIF53x7RtoLo2vHGts6AlaepciF9HhJfk4Oz8RW2dwQ_GXhNR6p1pFqiOnmsQA_PxdnRg4QUewjqD4dpvldrG9_KZvbpqLrv0CS6wwoUr-i21Ged5ib_P8VNKyusLigGEo9xYRKJyePbtcx4WWSuFFly-uWrTgO7wjYR-3xunCmoqiyJpGykN0NOkbno3Q1O2oKzb5g24Y1Gl7Z95m9wlMeMWJ0qvh-a35kkz4Ryr99XoqMk29tUDxEFMLN7GxUIK8oBb4X8s_VMKbPIcUrTc9htatmTWFkQPmRvtUCIOw3f7zOmWuS8ZW4UGkTWKbly1Cs0swg-v7_gb__UkuDeHI_cm2G6X-6IRqEHZtrXQnh-Sm93VbYimlDFsipqrCRtB54xlE09bPke5ecsLpAESncfSYEkTeclL9oLCiccWBcqkWp_YdKXZTf=w803-h402-no',
     altText: 'Slide 3',
     header: 'Baseball',
     caption: 'Taking in a game at AT&T Park in San Francisco'
@@ -42,10 +42,17 @@ const Home = () => {
       <div className='homepage-name'>
         <h1>Daniel Pifer</h1>
         <h4>Full Stack Web Developer</h4>
-        <h3>And I also enjoy...</h3>
       </div>
       <div id='carousel'>
         <UncontrolledCarousel id='carousel-items' items={items} />
+      </div>
+      <div className='homepage-bio'>
+        <h3>Biography</h3>
+        <p>I have a wide range of experience that makes me uniquely well rounded. This quality makes me a valuable asset to any company. My military experience taught me leadership, and how to be an effective member of a team. My building experience taught me attention to detail, and how to deliver a professional, finished product to a customer.</p>
+        <p>My tech experience in Customer Support and QA allow me to see the larger picture, and gave me a familiarity with the entire development process. As a QA Tester, I used my customer support experience to keep the users' needs in mind, which in turn made for a better final product.</p>
+        <p>I'm comfortable diving into projects by myself, and also enjoy collaboration with a team. I worked remote for a year so I can get the job done with little supervision.</p>
+        <p>But it's not all just work! I love heading up into the mountains for the weekend, exploring new hiking trails, or finding a good spot on a river and going fly-fishing. As an avid baseball fan, I also enjoy going to Rockies games whenever I can.</p>
+        <p>I’m looking for opportunities that allow me to continue learning, and to fine tune my skills as a developer. I'd love to join a team that I can contribute to, and through the developers around me, become a valuable addition to the company.</p>
       </div>
     </div>
   )
