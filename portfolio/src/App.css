@@ -234,16 +234,6 @@
   }
 }
 
-/* #carousel h3, p{
-  color: black;
-}
-
-.carousel-caption {
-  background: rgb(249, 249, 249, 0.5);
-   
-} */
-
-
 .homepage-bio {
   color: white;
   padding-bottom: 8vh;
@@ -261,7 +251,6 @@
   padding-right: 10vw;
   color: white; 
 }
-
 
 /* /////////////////////////////////////////// Projects ////////////////////////////////////////// */
 
@@ -362,6 +351,10 @@
 .contact-linkedin-link a:hover {
   color: orange;
   text-decoration: none;
+}
+
+.contact-main h3 {
+  padding-bottom: 3%;
 }
 
 

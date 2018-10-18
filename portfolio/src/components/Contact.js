@@ -21,14 +21,14 @@ const Contact = () => {
       </div>
       <div className='contact-main'>
         <div className='contact-info'>
-          <h3>Email - piferdg@gmail.com</h3>
-          <h3>Phone - &#40;303&#41; 847-9394</h3>
-          <h3>Denver, CO.</h3>
+          <h3>Email: <a href='mailto:piferdg@gmail.com'>piferdg@gmail.com</a></h3>
+          <h3>Phone: &#40;303&#41; 847-9394</h3>
+          <h3>Location: Denver, CO.</h3>
           <div className='contact-github-link'>
-            <a target='-blank' href='https://github.com/piferdg'>GitHub</a>
+            <h3>GitHub: <a target='-blank' href='https://github.com/piferdg'>/piferdg</a></h3>
           </div>
           <div className='contact-linkedin-link'>
-            <a target='-blank' href='https://www.linkedin.com/in/daniel-pifer/'>Linkedin</a>
+            <h3>Linkedin: <a target='-blank' href='https://www.linkedin.com/in/daniel-pifer/'>/daniel-pifer</a></h3>
           </div>
         </div>
         <div className='contact-image'>
