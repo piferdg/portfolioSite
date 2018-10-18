@@ -17,7 +17,7 @@ I’m looking for opportunities that allow me to continue learning, and to fine 
   - Email - piferdg@gmail.com
   - GitHub - https://github.com/piferdg
   - Linkedin - https://www.linkedin.com/in/daniel-pifer/
-  - Personal Site - danielpifer.com
+  - Personal Site - https://danielpifer.com/
 
 ### Technologies Used
   - React.js
