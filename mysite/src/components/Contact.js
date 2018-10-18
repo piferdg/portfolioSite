@@ -4,6 +4,20 @@ import me from '../assets/meMtEvansHiking.png'
 const Contact = () => {
   return (
     <div className='contact'>
+      <div className="container">
+        <div className="bird-container-one">
+          <div className="bird-one"></div>
+        </div>
+        <div className="bird-container-two">
+          <div className="bird-two"></div>
+        </div>
+        <div className="bird-container-three">
+          <div className="bird-three"></div>
+        </div>
+        <div className="bird-container-four">
+          <div className="bird-four"></div>
+        </div>
+      </div>
       <div className='contact-title'>
         <h1>Contact info</h1>
       </div>
@@ -11,6 +25,7 @@ const Contact = () => {
         <div className='contact-info'>
           <h3>Email - piferdg@gmail.com</h3>
           <h3>Phone - &#40;303&#41; 847-9394</h3>
+          <h3>Greater Denver, Colorado area</h3>
           <div className='contact-github-link'>
             <a target='-blank' href='https://github.com/piferdg'>GitHub</a>
           </div>
