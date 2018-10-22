@@ -17,7 +17,7 @@
 }
 
 .header-name {
-  padding-right: 47vw;
+  padding-right: 52vw;
   color: wheat
 }
 
@@ -331,24 +331,13 @@
   justify-content: space-evenly;
 }
 
-.contact-github-link a{
-  color: white;
+.contact-info a {
+  color: lightskyblue;
+  text-decoration: none;
   font-size: 30px;
-  text-decoration: none;
 }
 
-.contact-github-link a:hover {
-  color: orange;
-  text-decoration: none;
-}
-
-.contact-linkedin-link a{
-  color: white;
-  font-size: 30px;
-  text-decoration: none;
-}
-
-.contact-linkedin-link a:hover {
+.contact-info a:hover {
   color: orange;
   text-decoration: none;
 }
@@ -356,7 +345,6 @@
 .contact-main h3 {
   padding-bottom: 3%;
 }
-
 
 /* /////////////////////////////////////////// Footer ////////////////////////////////////////// */
 
@@ -367,12 +355,3 @@
   height: 4vh;
   width: 100vw;
 }
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
