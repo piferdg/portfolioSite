@@ -300,10 +300,18 @@
   color: black;
 }
 
-.card-buttons{
+/* .card-buttons{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+} */
+
+.capstone-video {
+  margin-top: 1vh;
+}
+
+.video-card {
+  margin-top: 1vh;
 }
 
 

@@ -6,7 +6,7 @@ import rockiesRosterScreenshot from '../assets/rockiesRosterScreenshot.png'
 import dogImagesScreenshot from '../assets/dogImagesScreenshot.png'
 import {
   Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button
+  CardTitle, CardSubtitle, Button, UncontrolledCollapse
 } from 'reactstrap';
 
 const Projects = () => {
@@ -40,7 +40,17 @@ const Projects = () => {
                 <div className='launch-app-link'>
                   <Button color='primary' target='_blank' rel="noopener noreferrer" href="https://saywhat-37028.firebaseapp.com/">Launch App</Button>
                 </div>
-                <div className='info-button'>
+                <div className='capstone-video'>
+                  <Button color="success" id="toggler">
+                    Capstone Presentation
+                  </Button>
+                  <UncontrolledCollapse toggler="#toggler">
+                    <Card className='video-card'>
+                      <CardBody>
+                        <iframe title='Capstone Presentation' width="570" height="300" src="https://www.youtube.com/embed/MQUKROvyDsA" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                      </CardBody>
+                    </Card>
+                  </UncontrolledCollapse>
                 </div>
               </div>
             </CardBody>
