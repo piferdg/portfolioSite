@@ -5,15 +5,21 @@
   font-family: 'Crimson Text', serif;
 }
 
+body {
+  overscroll-behavior: none;
+}
+
 /* /////////////////////////////////////////// Header ////////////////////////////////////////// */
 
 .header {
   display: flex;
+  align-content: center;
   background-color: #282c34;
   font-size: 25px;
-  padding-top: 2vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
   font-family: 'Crimson Text', serif;
-  border: 1px solid black;
+  border-bottom: 2px solid black;
 }
 
 .header-name {
@@ -187,8 +193,6 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  
-  
 }
 
 .homepage-name {
@@ -223,6 +227,7 @@
   animation-duration: 3s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
+  box-shadow: 5px 8px 20px black;
 }
 
 @keyframes fadeIn{
@@ -278,13 +283,14 @@
 }
 
 .card-one, .card-two, .card-three, .card-four, .card-five, .card-six{
-  padding: 3%;
+  padding: 2%;
   width: 40vw; 
 }
 
 #card-one, #card-two, #card-three, #card-four, #card-five, #card-six {
   background: rgb(249, 249, 249, 0.3);
   color: white;
+  box-shadow: 5px 10px 18px black;
 }
 
 .projects-page a:hover {
@@ -300,18 +306,29 @@
   color: black;
 }
 
-/* .card-buttons{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-} */
-
 .capstone-video {
   margin-top: 1vh;
 }
 
 .video-card {
-  margin-top: 1vh;
+  margin-top: 2vh;
+}
+
+.capstone-video iframe {
+  height: 50vh;
+  width: 31vw;
+}
+
+.launch-app-button {
+  box-shadow: 5px 8px 20px black;
+}
+
+.capstone-video-button {
+  box-shadow: 5px 8px 20px black;
+}
+
+.project-title {
+  font-size: 25px
 }
 
 
@@ -354,12 +371,15 @@
   padding-bottom: 3%;
 }
 
+.contact-image {
+  box-shadow: 5px 10px 18px black;
+}
+
 /* /////////////////////////////////////////// Footer ////////////////////////////////////////// */
 
 .footer {
   color: white;
   position: absolute;
   bottom: 0%;
-  height: 4vh;
   width: 100vw;
 }
