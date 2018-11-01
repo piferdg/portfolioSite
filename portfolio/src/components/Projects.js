@@ -2,7 +2,7 @@ import React from 'react';
 import sayWhatScreenshot from '../assets/sayWhatScreenshot.png'
 import cravScreenshot from '../assets/cravScreenshot.png'
 import starWarsScreenshot from '../assets/starWarsPostersScreenshot.png'
-import rockiesRosterScreenshot from '../assets/rockiesRosterScreenshot.png'
+import rockiesRosterScreenshot from '../assets/Colorado_Rockies_Roster_Screenshot.png'
 import dogImagesScreenshot from '../assets/dogImagesScreenshot.png'
 import {
   Card, CardImg, CardText, CardBody,
