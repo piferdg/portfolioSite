@@ -12,7 +12,9 @@ import {
 const Projects = () => {
   return (
     <div className='projects-page'>
-      <h1>Projects</h1>
+      <div className='projects-title'>
+        <h1>Projects</h1>
+      </div>
       <div className='projects-container'>
         <div className='card-one'>
           <Card id='card-one'>
