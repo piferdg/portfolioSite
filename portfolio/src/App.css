@@ -1,6 +1,7 @@
 .app {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100%;
+  /* min-width: 100vw; */
   position: relative;
   font-family: 'Crimson Text', serif;
 }
@@ -14,6 +15,7 @@ body {
 .header {
   display: flex;
   align-content: center;
+  flex-wrap: wrap;
   background-color: #282c34;
   font-size: 25px;
   padding-top: 1vh;
@@ -23,7 +25,6 @@ body {
 }
 
 .header-name {
-  padding-right: 52vw;
   color: wheat
 }
 
@@ -39,7 +40,7 @@ body {
 
 /* /////////////////////////////////////////// Home ////////////////////////////////////////// */
 
-.bird-one, .bird-two, .bird-three, .bird-four {
+/* .bird-one, .bird-two, .bird-three, .bird-four {
 	background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells.svg');
 	background-size: auto 100%;
 	width: 88px;
@@ -186,13 +187,14 @@ body {
 	100% {
 		transform: translateY(0vh) translateX(110vw) scale(0.45);
 	}	
-}
+} */
 
 .homepage {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
 }
 
 .homepage-name {
@@ -228,6 +230,7 @@ body {
   animation-delay: 2s;
   animation-fill-mode: forwards;
   box-shadow: 5px 8px 20px black;
+  width: 60vw;
 }
 
 @keyframes fadeIn{
@@ -280,12 +283,44 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap; 
+  padding-bottom: 5vh;
 }
 
 .card-one, .card-two, .card-three, .card-four, .card-five, .card-six{
   padding: 2%;
   width: 40vw; 
 }
+
+@media only screen and (max-width: 800px) {
+  .card-one, .card-two, .card-three, .card-four, .card-five, .card-six{
+    width: 80vw;
+  }
+  .capstone-video iframe{
+    min-width: 65vw;
+  }
+}
+
+/* .country-info {
+  border: 1px solid black;
+  background: rgb(249, 249, 249, 0.8);
+  margin-bottom: 1vh;
+  padding: 3%;
+  width: 80vw;
+  box-shadow: 8px 10px 30px black;
+}
+
+@media only screen and (min-width: 450px) {
+  .country-info {
+    border: 1px solid black;
+    background: rgb(249, 249, 249, 0.8);
+    margin-bottom: 1vh;
+    padding: 3%;
+    width: 30vw;
+  }
+}  */
+
+
+
 
 #card-one, #card-two, #card-three, #card-four, #card-five, #card-six {
   background: rgb(249, 249, 249, 0.3);

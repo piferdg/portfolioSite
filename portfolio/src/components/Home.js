@@ -25,7 +25,7 @@ const items = [
 const Home = () => {
   return (
     <div className='homepage'>
-      <div className="container">
+      {/* <div className="container">
         <div className="bird-container-one">
           <div className="bird-one"></div>
         </div>
@@ -38,7 +38,7 @@ const Home = () => {
         <div className="bird-container-four">
           <div className="bird-four"></div>
         </div>
-      </div>
+      </div> */}
       <div className='homepage-name'>
         <h1>Daniel Pifer</h1>
         <h4>Full Stack Web Developer</h4>
