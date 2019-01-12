@@ -15,7 +15,7 @@ const Projects = () => {
       <div className='projects-title'>
         <h1>Projects</h1>
       </div>
-      <div className='projects-container'>
+      <div className='top-cards'>
         <div className='card-one'>
           <Card id='card-one'>
             <CardBody>
@@ -60,8 +60,11 @@ const Projects = () => {
             </CardBody>
           </Card>
         </div>
+      </div>
+      <div className='parallax'></div>
+      <div className='middle-cards'>
         <div className='card-three'>
-          <Card id='card-four'>
+          <Card id='card-three'>
             <CardBody>
               <CardTitle className='project-title'>Colorado Rockies Roster</CardTitle>
               <CardSubtitle>Add/Delete Players from the roster</CardSubtitle>
@@ -79,7 +82,7 @@ const Projects = () => {
           </Card>
         </div>
         <div className='card-four'>
-          <Card id='card-five'>
+          <Card id='card-four'>
             <CardBody>
               <CardTitle className='project-title'>The Good Mood App!</CardTitle>
               <CardSubtitle>Click the bone to see a new dog</CardSubtitle>
@@ -96,8 +99,11 @@ const Projects = () => {
             </CardBody>
           </Card>
         </div>
+      </div>
+      <div className='parallax'></div>
+      <div className='bottom-cards'>
         <div className='card-five'>
-          <Card id='card-three'>
+          <Card id='card-five'>
             <CardBody>
               <CardTitle className='project-title'>Star Wars App</CardTitle>
               <CardSubtitle>Movie Poster Generator</CardSubtitle>

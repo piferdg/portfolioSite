@@ -1,5 +1,18 @@
 import React from 'react'
 import { UncontrolledCarousel } from 'reactstrap';
+import htmlLogo from '../assets/htmlLogo.png'
+import cssLogo from '../assets/CSS3_logo.png'
+import cypressLogo from '../assets/cypressLogo.png'
+import expressLogo from '../assets/expressLogo.png'
+import firebaseLogo from '../assets/firebaseLogo.png'
+import herokuLogo from '../assets/herokuLogo.png'
+import javaScriptLogo from '../assets/JavaScript-logo.png'
+import knexLogo from '../assets/knexLogo.png'
+import mongoDBLogo from '../assets/mongodb-logo.png'
+import nodeLogo from '../assets/nodejsLogo.png'
+import postgresLogo from '../assets/PostgreSQLLogo.png'
+import reactLogo from '../assets/React.js_logo.png'
+import vueLogo from '../assets/vueLogo.png'
 
 const items = [
   {
@@ -29,8 +42,71 @@ const Home = () => {
         <h1>Daniel Pifer</h1>
         <h4>Full Stack Web Developer</h4>
       </div>
-      <div id='carousel'>
-        <UncontrolledCarousel id='carousel-items' items={items} />
+        <div className='carousel-container'>
+          <div id='carousel'>
+            <UncontrolledCarousel id='carousel-items' items={items} />
+          </div>
+        </div>
+      <div className='technologies'>
+        <h3>Technologies</h3>
+        <div className='tech-images'>
+          <div className='frontend'>
+            <div>
+              <img src={javaScriptLogo} alt='JavaScript' />
+              <h4>JavaScript</h4>
+            </div>
+            <div>
+              <img src={reactLogo} alt='React' />
+              <h4>React</h4>
+            </div>
+            <div>
+              <img src={vueLogo} alt='Vue' />
+              <h4>Vue</h4>
+            </div>
+            <div>
+              <img src={firebaseLogo} alt='Firebase' />
+              <h4>Firebase</h4>
+            </div>
+            <div>
+              <img src={htmlLogo} alt='html' />
+              <h4>HTML</h4>
+            </div>
+            <div>
+              <img src={cssLogo} alt='css' />
+              <h4>CSS</h4>
+            </div>
+            <div>
+              <img src={cypressLogo} alt='Cypress' />
+              <h4>Cypress</h4>
+            </div>
+          </div>
+          <div className='backend'>
+            <div>
+              <img src={expressLogo} alt='Express' />
+              <h4>Express</h4>
+            </div>
+            <div>
+              <img src={herokuLogo} alt='Heroku' />
+              <h4>Heroku</h4>
+            </div>
+            <div>
+              <img src={knexLogo} alt='Knex' />
+              <h4>Knex</h4>
+            </div>
+            <div>
+              <img src={mongoDBLogo} alt='MongoDB' />
+              <h4>MongoDB</h4>
+            </div>
+            <div>
+              <img src={nodeLogo} alt='Node' />
+              <h4>Node</h4>
+            </div>
+            <div>
+              <img src={postgresLogo} alt='PostgreSQL' />
+              <h4>PostgreSQL</h4>
+            </div>
+          </div>
+        </div>
       </div>
       <div className='homepage-bio'>
         <h3>Biography</h3>

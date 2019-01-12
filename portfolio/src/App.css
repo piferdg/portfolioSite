@@ -1,5 +1,4 @@
 .app {
-  background-color: #282c34;
   min-height: 100%;
   position: relative;
   font-family: 'Crimson Text', serif;
@@ -18,7 +17,6 @@ body {
   background-color: #282c34;
   font-size: 25px;
   padding-top: 1vh;
-  padding-bottom: 1vh;
   font-family: 'Crimson Text', serif;
   border-bottom: 2px solid black;
 }
@@ -46,16 +44,13 @@ body {
 /* /////////////////////////////////////////// Home ////////////////////////////////////////// */
 
 .homepage {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
+  background-color: #282c34;
   width: 100%;
 }
 
 .homepage-name {
   color: white;
-  padding-top: 1vh;
+  padding-top: 3vh;
   padding-bottom: 2vh;
 
 }
@@ -74,11 +69,25 @@ body {
 
 @media only screen and (max-width: 800px) {
   .homepage-name h1 {
-    font-size: 8vw;
+    font-size: 9vw;
   }
   .homepage-name h4 {
     font-size: 6vw;
   }
+}
+
+@media only screen and (max-width: 1100px) {
+  .frontend, .backend {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5vh;
 }
 
 #carousel {
@@ -86,10 +95,59 @@ body {
   width: 60vw;
 }
 
+.technologies {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.tech-images {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border: 1px solid white;
+}
+
+.frontend {
+  display: flex;
+}
+
+.backend {
+  display: flex;
+}
+
+.tech-images div {
+  padding: 2vh 3vw 1vw 1vh;
+}
+
+.tech-images img {
+  padding-top: 2vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  height: 10vh;
+}
+
+.tech-images h4 {
+  color: white;
+  text-align: center;
+  padding-top: 1vh;
+}
+
+.technologies h3 {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+
+}
+
 .homepage-bio {
   color: white;
-  padding-bottom: 8vh;
   padding-top: 4vh;
+  padding-bottom: 9vh;
 }
 
 .homepage-bio h3 {
@@ -106,14 +164,54 @@ body {
 
 /* /////////////////////////////////////////// Projects ////////////////////////////////////////// */
 
+.projects-page {
+  background-color: #282c34;
+}
+
+.top-parallax {
+   /* The image used */
+  background-image: url('https://i.pinimg.com/originals/36/aa/7b/36aa7bcfc5899bb12952666806b152fe.jpg');
+
+   /* Set a specific height */
+  min-height: 50px; 
+
+   /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('https://i.pinimg.com/originals/36/aa/7b/36aa7bcfc5899bb12952666806b152fe.jpg');
+
+  /* Set a specific height */
+  min-height: 200px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .projects-title h1 {
+  padding-top: 2vh;
   color: white;
   text-align: center;
   font-size: 40px;
   font-family: 'Crimson Text', serif;
 }
 
-.projects-container {
+.top-cards, .bottom-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; 
+  padding-bottom: 5vh;
+}
+
+.middle-cards {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap; 
@@ -185,11 +283,13 @@ body {
 /* /////////////////////////////////////////// Contact ////////////////////////////////////////// */
 
 .contact {
+  background-color: #282c34;
   color: white;
-  height: 93.2vh;
+  height: 94vh;
 }
 
 .contact h1 {
+  padding-top: 3vh;
   color: white;
   text-align: center;
   font-size: 40px;
@@ -251,8 +351,10 @@ body {
 /* /////////////////////////////////////////// Footer ////////////////////////////////////////// */
 
 .footer {
+  background-color: #282c34;
   color: white;
   position: absolute;
   bottom: 0%;
   width: 100vw;
+  border: 1px solid black;
 }
